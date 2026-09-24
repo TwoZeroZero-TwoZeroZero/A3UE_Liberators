@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3-Antistasi">
+    <Package name="A3UE-Liberators">
+        <Key ID="STR_params_are_invaders_friendly_title">
+            <Original>REB and INV vs GOV mode</Original>
+        </Key>
+
+        <Key ID="STR_params_are_invaders_friendly_desc">
+            <Original>If chosen, Invaders fight alongside rebels against Occupiers. Enabling this with Rivals on may lead to unforseen consequences.</Original>
+        </Key>
+
+        <Key ID="STR_params_are_invaders_friendly_1">
+            <Original>Off</Original>
+        </Key>
+
+        <Key ID="STR_params_are_invaders_friendly_2">
+            <Original>On</Original>
+        </Key>
+        <Key ID="STR_params_govInvFightSimulationDistancePlayer_title">
+            <Original>INV/GOV fight simulation distance relative to player</Original>
+        </Key>
+        <Key ID="STR_params_govInvFightSimulationDistancePlayer_desc">
+            <Original>If INV/GOV attack target is within this distance to player, it will be simulated and player will be warned</Original>
+        </Key>
+        <Key ID="STR_params_govInvFightSimulationDistanceHq_title">
+            <Original>INV/GOV fight simulation distance relative to HQ</Original>
+        </Key>
+        <Key ID="STR_params_govInvFightSimulationDistanceHq_desc">
+            <Original>If INV/GOV attack target is within this distance to HQ, it will be simulated and player will be warned</Original>
+        </Key>
+        <Key ID="STR_params_liberatorsWarLevelCoef_title">
+            <Original>Liberator War Level Coefficient</Original>
+        </Key>
+        <Key ID="STR_params_liberatorsWarLevelCoef_desc">
+            <Original>Zones captured by liberators will be used in War Level calculation with provided coefficient.</Original>
+        </Key>
+    </Package>
+</Project>
