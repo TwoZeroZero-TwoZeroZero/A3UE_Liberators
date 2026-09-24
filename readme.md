@@ -4,7 +4,8 @@ Adds an ability to turn invaders into a friendly faction. Useful for those who e
 Based on https://github.com/Westalgie/A3UExtender
 ## Installation
 ### Local
-Launch Build.ps1. In Arma 3 Launcher: Mods -> Local Mod -> Choose "build/a3ue_liberators" in this folder -> Load the installed mod
+Download mod archive from "releases" section. Extract "a3ue_liberators" folder from the archive.  
+In Arma 3 Launcher: Mods -> Local Mod -> Choose the extracted folder -> Load the installed mod.
 ### Steam
 ...
 
@@ -13,16 +14,16 @@ Extender parameters -> REB and INV vs GOV mode = On
 ## Features
 - Invader units don't attack rebel units and vice versa
 - Invaders don't launch scripted attacks toward rebels
-- GOV/INV attacks within specified distance from player/HQ are simulated
-- Adjustable influence of INV control on War Level
+- GOV/INV attacks within specified distance from player/HQ are "real"
+- Adjustable influence of INV map control on War Level
 
 Not implemented:
 - Victory conditions
 - Preventing Petros from giving missions against INV
 ## Details
 Changes:
-- functions\Base\fn_chooseAttack.sqf (modified): ignoring rebel attack targets if "REB and INV vs GOV mode = On".
-- functions\Liberators\fn_initLiberators.sqf (added): makes INV friends with REB and vice versa after server init.
+- functions\Base\fn_chooseAttack.sqf (modified): ignoring rebel attack targets
+- functions\Liberators\fn_initLiberators.sqf (added): makes INV friends with REB and vice versa after server init
 - functions\OrgPlayers\fn_tierCheck.sqf (modified): takes into account INV-controlled zones when calculating War Level
 - core\Params.hpp, core\Stringtable.xml: Adds extender parameters
 
